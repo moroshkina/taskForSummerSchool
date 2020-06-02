@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@android:color/white"
+    android:orientation = "vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <EditText
+        android:id="@+id/input_num"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:ems="60"
+        android:hint="RUB"
+        android:textSize="35dp"
+        android:singleLine="true"/>
+
+
+    <EditText
+        android:id="@+id/output_num"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:ems="60"
+        android:hint="USD"
+        android:textSize="35dp"
+        android:singleLine="true"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="202dp"
+        android:layout_height="76dp"
+        android:onClick="onClick"
+        android:text="convert"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/again_btn"
+        android:layout_width="202dp"
+        android:layout_height="76dp"
+        android:onClick="oifAgain"
+        android:text="again"
+        android:textSize="35dp" />
+</LinearLayout>
